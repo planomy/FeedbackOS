@@ -1,0 +1,43 @@
+.editor-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.editor-page__hero {
+  flex: 0 0 auto;
+  padding: 14px 16px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.editor-page__title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.editor-page__intro {
+  margin: 0;
+  max-width: 52rem;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.editor-page__intro strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.editor-page__body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
